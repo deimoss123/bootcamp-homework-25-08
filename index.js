@@ -15,7 +15,7 @@ function funcFour(a, n) {
   return a.splice(-n);
 }
 
-function funcOne(arr1, arr2) {
+function funcFive(arr1, arr2) {
   // filters the 2nd array to remove duplicate values from arr1
   const filteredArr2 = arr2.filter((val) => arr1.indexOf(val) === -1);
 
@@ -26,6 +26,6 @@ function funcOne(arr1, arr2) {
   return mergedArr.sort();
 }
 
-function funcTwo(a, b) {
+function funcSix(a, b) {
   return b in a;
 }
